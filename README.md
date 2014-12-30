@@ -5,9 +5,11 @@ quick and dirty way to convert json string to python object.
 
 # install
 
-## pip install qjson
+pip install qjson
+
 or 
-## just copy the qjson/qjson.py to your project.
+
+just copy the qjson/qjson.py to your project.
 
 #usage
 
