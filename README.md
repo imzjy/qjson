@@ -5,7 +5,7 @@ quick and dirty way to convert json string to python object.
 
 # install
 
-pip install qjson
+`$pip install qjson`
 
 or 
 
