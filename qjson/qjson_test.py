@@ -24,6 +24,7 @@ class qjson_test(unittest.TestCase):
 
     def test_array(self):
         self.assertEqual(qjson.loads('["b",1]')[1], 1, 'test array')
+        self.assertEqual(qjson.loads('[{"a":"b"}]')[0].a, "b", 'test array has object')
         self.assertEqual(qjson.loads('{"a":["b",1]}').a, ["b", 1], 'test array')
 
     def test_array_has_object(self):

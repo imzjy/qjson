@@ -27,7 +27,10 @@ class Payload(object):
                         self.__dict__[k][idx] = Payload(self.__dict__[k][idx])
     
     def __getitem__(self, key):
-        return self.__item__[key]
+        if isinstance(self.__item__[key], dict):
+            return Payload(self.__item__[key])
+        else:
+            return self.__item__[key]
 
 def loads(s):
     return Payload(s)
