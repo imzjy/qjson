@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 __title__ = 'qjson'
-__version__ = '0.1.5'
+__version__ = '0.1.6'
 __author__ = 'Jerry Chou'
 __license__ = 'MIT License'
 
