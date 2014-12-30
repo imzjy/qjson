@@ -1,7 +1,6 @@
-#-*- encoding: utf-8 -*-
-import json
+# -*- coding: utf-8 -*-
 
-__version__ = '0.1.0'
+import json
 
 class Payload(object):
     def __init__(self, str_or_dict):
@@ -21,4 +20,4 @@ def loads(s):
     return Payload(s)
 
 if __name__ == '__main__':
-    print "qjson", __version__
+    print "qjson - quick and dirty way to convert json string to python object"
