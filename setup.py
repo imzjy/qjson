@@ -12,7 +12,8 @@ except ImportError:
 with open('README.md', 'r') as f:
     readme = f.read()
 
-history = 'first upload to pypi'
+with open('CHANGES.md', 'r') as f:
+    history = f.read()
 
 
 setup(
