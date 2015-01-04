@@ -46,6 +46,10 @@ class qjson_test(unittest.TestCase):
 
         self.assertEqual(info.grade, "a", 'test_object')
         self.assertEqual(info.score, [80, 90], 'test_object')
+    
+    def test_has_key_op(self):
+        self.assertEqual(hasattr(qjson.loads('{"a":"b"}'), 'a'), True, 'test has key op')
+        self.assertEqual(hasattr(qjson.loads('{"a":"b"}'), 'not_exist'), False, 'test has key op')
         
         
 if __name__ =='__main__':
