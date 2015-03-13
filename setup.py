@@ -22,14 +22,14 @@ setup(
     description='quick and dirty way to convert json string to python object',
     long_description=readme + '\n\n' + history,
 
-    url='https://github.com/jatsz/qjson',
-    download_url='https://github.com/jatsz/qjson/tarball/master',
+    url='https://github.com/imzjy/qjson',
+    download_url='https://github.com/imzjy/qjson/tarball/master',
 
     version=qjson.__version__,
     license=qjson.__license__,
 
     author=qjson.__author__,
-    author_email='imjatsz@gmail.com',
+    author_email='imimzjy@gmail.com',
 
     packages=['qjson'],
 
